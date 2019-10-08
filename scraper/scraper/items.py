@@ -9,7 +9,7 @@ import scrapy
 
 
 class SchoolItem(scrapy.Item):
-    # define the fields for your item here like:
+    # define the fields for item here like:
     name = scrapy.Field()
     score = scrapy.Field()
     rate_type = scrapy.Field()
